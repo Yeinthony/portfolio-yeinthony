@@ -1,0 +1,36 @@
+:root {
+  --black: #0D0D0D;
+  --white: #F2F2F2;
+  --blue: #023859;
+  --blue-light: #88D4F2;
+  --gray: #595857;
+  --gray-light: #8C8B88;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/subtitles/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalizes;
+}
+
+html {
+  font-size: 62.4%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100vh;
+  padding: 0 9%;
+  padding-top: 7.5rem;
+  padding-bottom: 2rem;
+}/*# sourceMappingURL=App.css.map */
